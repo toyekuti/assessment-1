@@ -1,0 +1,72 @@
+1) What does the `rm` command in the terminal do?
+
+Your answer:
+It is a command used to remove/delete files, folders/directories and links. For example when used in the command: rm -rf .git, it removes everything git related in a directory or folder.
+
+------------------
+2) What terminal command would you use to list all the files and folder in the 
+   current directory?
+
+Your answer:
+The "ls" command.
+
+------------------
+3) Explain the difference between these two commands in the terminal:
+   
+   $ cd Users
+   $ cd /Users
+
+Your answer:
+$ cd Users is used to change the current directory to a subdirectory named "Users". In essense, to navigate forward into another directory which is located within a directory.
+$ cd /Users is used to navigate from the present working directory into the root directory and then into the directory named "Users" which is located at the root level. In essense to navigate backward to a root user directory.
+
+------------------
+4) Describe what git is and what it is used for.
+
+Your answer:
+Git is an open source version control program that allows one to store/back up files, folders and directories that are on a local machine to the cloud(GitHub).
+
+------------------
+5) Describe what GitHub is and what it is used for.
+
+Your answer:
+GitHub is a website that allows one to store and back up multiple files, folders and directories that are contained in a local machine to the cloud. It is the industry standard for managing software development where changes to a local repository can be tracked, earlier versions can be reverted back to, and where developers can collaborate.
+
+------------------
+6) Which of these commands sets up a new git repository?
+    a) git clone 
+    b) git pull
+    c) git init
+    d) git status
+
+Your answer: c) git init
+
+------------------
+7) You want to check that you have properly added all the files you want to be
+   tracked in git BEFORE you make a commit. Which command will do this?
+     a) git push
+     b) git commit
+     c) git status
+     d) git remote
+
+Your answer: c) git status
+
+
+------------------
+8) What is the difference between `git add` and `git commit`?
+
+Your answer: `git add` adds all the files, folders and directories in a git repository for tracking. While `git commit` commits the added files, folders and directories by staging them. This is done before pushing to the repository on GitHub.
+
+
+------------------
+9) What does the `git push` command do?
+
+Your answer: It pushes all the tracked and commited files to GitHub.
+
+
+------------------
+10) When would you use the `git clone` command?
+
+Your answer: This command is used to copy a repository on GitHub to a local machine. Examples are when one does not have a copy of a repository available on GitHub on ones computer, and when one wants to sync changes made from another computer directly to the repository on GitHub.
+
+
